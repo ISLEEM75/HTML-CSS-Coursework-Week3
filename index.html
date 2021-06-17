@@ -7,10 +7,93 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Cake webpage</title>
     <!-- Add a link to your css file here -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Add your markup here -->
+    <header class="header">
+        <div class="header_con">
+            <img class="header-logo" src="images/logo-cake.svg" alt="logo-cake">
+            <a id="menu" class="header_menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+        </svg>
+            </a>
+            <div class="titel">
+                <h1 class="header_title">
+                    The best cakes in town delivered to your door
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <nav id="drawer" class="nav">
+        <ul class="nav_list">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">CAKES</a></li>
+            <li><a href="#">ORDERIN</a></li>
+            <li><a href="#">LESSONS</a></li>
+            <li><a href="#">ABOUT</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section class="intro container">
+            <article class="article">
+                <h2>Welcome</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel erat commodo, rhoncus ipsum in, pulvinar odio. Quisque nec lectus magna. Ut a molestie magna. Aenean rutrum tortor eget dolor cursus tincidunt. Phasellus quam eros, interdum eget mi in,
+                    eleifend congue felis. Cras id gravida felis, vitae mattis turpis. Sed sollicitudin hendrerit ipsum, eget viverra ex laoreet sed. Morbi eros ligula, feugiat at ullamcorper eget, placerat sed dolor. Sed porttitor, odio rutrum viverra
+                    auctor, ligula quam elementum diam, pharetra vulputate orci nibh in sapien. Nam laoreet mauris a magna mollis mattis. Integer vestibulum et dui nec tincidunt. Morbi dolor nibh, blandit nec neque at, porttitor laoreet diam. Suspendisse
+                    id lectus vitae ex ultrices maximus. Morbi mauris eros, sagittis vitae augue vel, fermentum commodo tellus. </p>
+            </article>
+            <div class="intro-image">
+                <img src="images/cake1.jpg" alt="welcome-intro" />
+            </div>
+        </section>
+
+
+        <section class="cakes container">
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="./images/cake2.jpg" alt="cake-img" />
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="./images/cake2.jpg" alt="cake-img" />
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="./images/cake2.jpg" alt="cake-img" />
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="./images/cake2.jpg" alt="cake-img" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <div class="footer-divs">
+            <div class="foter-button">
+                First button
+            </div>
+            <div class="foter-button">
+                Second button
+            </div>
+            <div class="foter-button">
+                Third button
+            </div>
+        </div>
+        <div class="copyright">
+            &copy;Ibrahim ISLEEM
+        </div>
+    </footer>
 </body>
 
 </html>
